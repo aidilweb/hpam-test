@@ -20,7 +20,6 @@
         }
 
         .navbar-brand {
-            /* border-bottom: 2px solid #03AC0E; */
             color: #03AC0E;
             font-weight: bold
         }
@@ -185,7 +184,7 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="d-flex collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
